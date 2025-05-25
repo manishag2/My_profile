@@ -1,7 +1,177 @@
 <!DOCTYPE html>
-<head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/10e785415a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imag/logo.png" class="logo">
+                <ul>
+                    <li ><a href="#">Home</a></li>
+                    <li ><a href="#">About</a></li>
+                    <li ><a href="#">Services</a></li>
+                    <li ><a href="#">portfolio</a></li>
+                    <li ><a href="#">Contact</a></li>
 
-</head>
-<body>
-    
-</body>
+                </ul>
+            </nav>
+            <div class="header-text"><!--<p>Software Engineer</p>--><h1>Hi I'm Manisha<spam>G</spam></h1></div>
+        </div>
+        </div>
+        <!-- About -->
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="imag/user.png" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> Master's in Computer Science and Engineering candidate with a keen interest in software development and data analytics. Proficient in a diverse array of technologies including Power BI, Python, C, Java, and React Js. Eager to apply theoretical knowledge to real-world challenges and drive innovation in the tech industry.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>Experinance</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>Education</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                                <li><span>Software developer</span>Design Appl/web pages</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+<div id="services">
+    <div id="container">
+        <h1 class="sub-title">My services</h1>
+        <div id="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>PR</h2>
+                <p>placement reresentative<a href="#">Learn more</a></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>CR</h2>
+                <p>placement reresentative<a href="#">Learn more</a></p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Works</h2>
+                <p>placement reresentative<a href="#">Learn more</a></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- protfolio -->
+<div id="portfolio">
+    <div class="container">
+        <h1>My work</h1>
+        <div id="work-list">
+            <div id="work">
+                <imag src="imag/work-1.png">
+                <div id="layer">
+                    <h3>socialmedia app</h3>
+                    <p>about project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div id="work">
+                <imag src="imag/work-2.png">
+                <div id="layer">
+                    <h3>socialmedia app</h3>
+                    <p>about project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div id="work">
+                <imag src="imag/work-3.png">
+                <div id="layer">
+                    <h3>socialmedia app</h3>
+                    <p>about project</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- contact -->
+ <div id="contact">
+    <div id="container">
+        <div id="row">
+            <div id="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-brands fa-linkedin"></i>email</p>
+                <p><i class="fa-brands fa-linkedin"></i></p>
+                <p><i class="fa-brands fa-linkedin"></i></p>
+                <p><i class="fa-brands fa-linkedin"></i></p>
+                <div id="social-icon">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>
+                </div>
+            </div>
+            <div id="contact-right">
+                <form >
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea type="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+    <script>
+        var tablinks= document.getElementsByClassName('tab-links');
+        var tabcontents= document.getElementsByClassName('tab-contents');
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+        
+    </body>
+</html>
