@@ -29,6 +29,23 @@ body {
   font-size: 0.95em;
 }
 
+
+.contact-info a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.head-name{
+  font-style: italic;
+  color: white;
+  font-size: 30px;
+}
+
 .head-name a{
   color: white;
   text-decoration: none;
@@ -40,15 +57,7 @@ body {
 }
 
 
-.contact-info a {
-  color: white;
-  text-decoration: none;
-  margin: 0 5px;
-}
 
-.contact-info a:hover {
-  text-decoration: underline;
-}
 
 /* Section styling */
 .section {
